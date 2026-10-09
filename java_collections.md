@@ -884,7 +884,7 @@ Any class that implements `Iterable` can be used in a **for-each loop**.
 ---
 
 ### How They Work Together
-
+If we want to call iterator() function on a reference variable pointing to a collection type , the collection type must implement the iterable interface.
 ```java
 ArrayList<String> names = new ArrayList<>();
 names.add("Pavan");
